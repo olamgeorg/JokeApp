@@ -10,8 +10,7 @@
 
 
 
-// i love this github
- //i like this
+
 //money first bro
 
 
