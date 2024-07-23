@@ -13,6 +13,8 @@
 // i love this github
  //i like this
 //money first bro
+
+
 const url = 'https://v2.jokeapi.dev/joke/Any'
 const joke = document.getElementById('joke')
 const buton = document.getElementById('buton');
