@@ -14,23 +14,36 @@
 
 
 
+// const url = 'https://v2.jokeapi.dev/joke/Any'
+// const joke = document.getElementById('joke')
+// const buton = document.getElementById('buton');
+
+
+// let getJoke = ()=> { 
+// fetch (url).then(data => data.json())
+// .then((item)=> 
+// {
+//    // (console.log(item.joke)
+
+//     joke.textContent = `${item.joke}`
+// }
+//   );
+
+// }
+// buton.addEventListener('click',getJoke());
+// getJoke();
+
+
 const url = 'https://v2.jokeapi.dev/joke/Any'
-const joke = document.getElementById('joke')
-const buton = document.getElementById('buton');
-
-
-let getJoke = ()=> { 
-fetch (url).then(data => data.json())
-.then((item)=> 
-{
-   // (console.log(item.joke)
-
-    joke.textContent = `${item.joke}`
+const joke = document.getElementById('joke');
+const btn =  document.getElementById('btn');
+let getJoke =()=>{
+    fetch(url).then(data => data.json())
+    .then((item)=>{
+        joke.textContent=`${item.joke}`
+    })
 }
-  );
-
-}
-buton.addEventListener('click',getJoke());
+btn.addEventListener('click',getJoke());
 getJoke();
 
-     
+// i am olamide
