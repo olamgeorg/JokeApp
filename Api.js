@@ -24,7 +24,7 @@ fetch (url).then(data => data.json())
 .then((item)=> 
 {
    // (console.log(item.joke)
-    //  learn more
+
     joke.textContent = `${item.joke}`
 }
   );
