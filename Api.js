@@ -9,6 +9,7 @@
 
 
 
+// i love this github
 
 const url = 'https://v2.jokeapi.dev/joke/Any'
 const joke = document.getElementById('joke')
