@@ -46,4 +46,3 @@ let getJoke =()=>{
 btn.addEventListener('click',getJoke());
 getJoke();
 
-// i am olamide
