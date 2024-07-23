@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* #joke{
+    color: red;
+} */
+ .wraper{
+    background-color: black;
+    width: 350px;
+    height: 450px;
+    margin-left: 450px;
+    border-radius: 250px;
+    border: 4px solid blue;
+ }
+ span{
+    margin-left: 110px;
+    font-size: 90px;
+
+ }
+ #buton{
+    margin-left: 130px;
+    margin-top: 110px;
+    border-radius: 1rem;
+    /* border:3px solid red; */
+    border-style: none;
+    background-color: green;
+    cursor: pointer;
+    
+ }
+ #buton h1{
+    color: red;
+    font-size: 14px;
+ }
+ .wraper button{
+    width: 120px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+ }
+ #joke{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+ }
