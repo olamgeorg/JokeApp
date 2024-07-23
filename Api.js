@@ -1,5 +1,5 @@
 //two types of Api
-//love my instructor
+
 // install to your extention = THUNDER CLIENT API.
 // on your BROWSER type = v2.jokeapi.client
 //FREE API and PAID they are called REST.
