@@ -30,4 +30,5 @@ fetch (url).then(data => data.json())
 }
 buton.addEventListener('click',getJoke());
 getJoke();
+
      
