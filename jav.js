@@ -118,6 +118,12 @@
 // const userInput = prompt(document.getElementById('jumbo'));
 
 
+
+
+// MY NAME IS FOLASHADE I LIVE IN AMERICA
+
+
+
 const url = 'https://v2.jokeapi.dev/joke/Any'
 const joke = document.getElementById('joke')
 fetch (url).then(data => data.json())
