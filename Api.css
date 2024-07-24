@@ -2,59 +2,52 @@
     padding: 0px;
     margin: 0px;
 }
-/* #joke{
-    color: red;
-} */
- .wraper{
+.wraper{
     background-color: black;
-    width: 350px;
-    height: 450px;
-    margin-left: 450px;
-    border-radius: 250px;
+    width: 450px;
+    height: 480px;
+    margin-left: 400px;
+    border-radius: 70px;
     border: 4px solid blue;
- }
- span{
-    margin-left: 110px;
-    font-size: 90px;
+}
 
- }
- #buton{
-    margin-left: 130px;
-    margin-top: 110px;
-    border-radius: 1rem;
-    /* border:3px solid red; */
-    border-style: none;
-    background-color: green;
-    cursor: pointer;
-    
- }
- #buton h1{
-    color: red;
-    font-size: 14px;
- }
- .wraper button{
-    width: 120px;
-    height: 35px;
-    margin-top: 40px;
-    margin-left: 30px;
-    
- }
- #joke{
-    margin-top: 70px;
-    text-align: center;
-    color: white;
+#btn{
+   width: 110px;
+   height: 35px;
+   margin-top: 300px;
+   margin-left: 160px;
+   cursor: pointer;
+   
+}
+
+#meal{
+    color:white;
     font-size: 13px;
- }
- /* barry made man */
+    text-align: center;
+    
+    
+} 
+.emoji{
+   margin-top:20px;
+   margin-left: 150px;
+   font-size: 60px;
+}
+.wraper button h1{
+   font-size: 12px;
+}
+button{
+   margin: 5rem 1rem;
+}
+
 
 
  
  /* green light */
-.contain{
+/* .contain{
    background-color: black;
     width: 450px;
     height: 480px;
-    margin-left: 430px;
+    margin-left: 400px;
     border-radius: 70px;
     border: 4px solid blue;
 }
@@ -72,8 +65,37 @@
    color: white;
    font-size: 15px;
    font-weight:bolder ;
+} */
+/* .contain span{
+    margin-left: 130px;
+    font-size: 50px;
+} */
+
+
+/* .contain{
+   background-color: black;
+    width: 450px;
+    height: 480px;
+    margin-left: 400px;
+    border-radius: 70px;
+    border: 4px solid blue;
+}
+#btn{
+    width: 110px;
+    height: 35px;
+    margin-top: 140px;
+    margin-left: 160px;
+    cursor: pointer;
+    
+}
+#weather{
+   margin-top: 90px;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+   font-weight:bolder ;
 }
 .contain span{
-    margin-left: 150px;
+    margin-left: 130px;
     font-size: 50px;
-}
+} */

@@ -34,15 +34,28 @@
 // getJoke();
 
 
-const url = 'https://v2.jokeapi.dev/joke/Any'
-const joke = document.getElementById('joke');
-const btn =  document.getElementById('btn');
+// const url = 'https://v2.jokeapi.dev/joke/Any'
+// const joke = document.getElementById('joke')
+// const btn = document.getElementById('btn')
+// let getJoke =()=>{
+//     fetch(url).then(data => data.json())
+//     .then((item)=>{
+//         joke.textContent=`${item.joke}`
+//     })
+// }
+// btn.addEventListener('click', getJoke())
+// getJoke();
+
+
+
+const url = ''
+const meal = document.getElementById('meal');
+const btn = document.getElementById('btn');
 let getJoke =()=>{
     fetch(url).then(data => data.json())
     .then((item)=>{
-        joke.textContent=`${item.joke}`
+        meal.textContent = `${item.meal}`
     })
 }
-btn.addEventListener('click',getJoke());
-getJoke();
-
+btn.addEventListener('click', getMeal());
+getMeal();
